@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import { Button } from '@/components/ui/button';
 import { Header } from '@/components/layout/Header';
 import { 
+  FireExtinguisher,
   Flame, 
   MapPin, 
   Bell, 
@@ -31,7 +32,7 @@ export default function Index() {
         <div className="container relative py-24 md:py-32">
           <div className="max-w-4xl mx-auto text-center">
             <div className="inline-flex items-center gap-2 px-4 py-2 bg-primary/10 rounded-full text-primary text-sm font-medium mb-6 animate-fade-in">
-              <Flame className="h-4 w-4" />
+              <FireExtinguisher className="h-4 w-4" />
               Emergency Response System
             </div>
             
@@ -228,7 +229,7 @@ export default function Index() {
           <div className="flex flex-col md:flex-row items-center justify-between gap-4">
             <div className="flex items-center gap-2">
               <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-gradient-hero">
-                <Flame className="h-4 w-4 text-primary-foreground" />
+                <FireExtinguisher className="h-4 w-4 text-primary-foreground" />
               </div>
               <span className="font-display text-lg font-bold">FireAlert</span>
             </div>

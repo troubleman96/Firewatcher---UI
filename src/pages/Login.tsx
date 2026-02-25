@@ -7,7 +7,7 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/com
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
 import { useAuth } from '@/contexts/AuthContext';
 import { useToast } from '@/hooks/use-toast';
-import { Flame, User, Shield, Loader2 } from 'lucide-react';
+import { FireExtinguisher, User, Shield, Loader2 } from 'lucide-react';
 import { UserType } from '@/types';
 
 export default function Login() {
@@ -56,7 +56,7 @@ export default function Login() {
         {/* Logo */}
         <Link to="/" className="flex items-center justify-center gap-2 mb-8">
           <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-gradient-hero shadow-fire">
-            <Flame className="h-7 w-7 text-primary-foreground" />
+            <FireExtinguisher className="h-7 w-7 text-primary-foreground" />
           </div>
           <span className="font-display text-2xl font-bold">FireAlert</span>
         </Link>

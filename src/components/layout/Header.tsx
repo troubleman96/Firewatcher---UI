@@ -2,7 +2,7 @@ import React from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import { Button } from '@/components/ui/button';
 import { useAuth } from '@/contexts/AuthContext';
-import { Flame, LogOut, User, Menu, X } from 'lucide-react';
+import { FireExtinguisher, LogOut, User, Menu, X } from 'lucide-react';
 import { useState } from 'react';
 
 export function Header() {
@@ -20,7 +20,7 @@ export function Header() {
       <div className="container flex h-16 items-center justify-between">
         <Link to="/" className="flex items-center gap-2">
           <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-gradient-hero">
-            <Flame className="h-6 w-6 text-primary-foreground" />
+            <FireExtinguisher className="h-6 w-6 text-primary-foreground" />
           </div>
           <span className="font-display text-xl font-bold">FireAlert</span>
         </Link>
